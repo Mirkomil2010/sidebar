@@ -82,7 +82,7 @@ export default function Sidebar() {
         {links.main.map(link => (
           <li className='' key={link.id}>
             <Link to={link.href}>
-              <Button variant={`${isActive(link.href) ? 'gradient' : 'ghost'}`} className='py-3 px-[18px] w-full justify-start cursor-pointer'>
+              <Button variant={`${isActive(link.href) ? 'figma' : 'ghost'}`} className='py-3 px-[18px] w-full justify-start cursor-pointer'>
                 <span className='[&>svg]:w-4 [&>svg]:h-4'> {link.icon}</span>
                 <span className='text-sm text-start'>{link.label}</span>
               </Button>

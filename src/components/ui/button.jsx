@@ -9,7 +9,7 @@ const buttonVariants = cva(
   {
     variants: {
       variant: {
-        gradient: 'bg-linear-to-b from-[#433F3B] to-[#2A2625] inset-shadow-xs text-white shadow-[rgba(255,255,255,0.2)_0px_0px_0px_1px_inset,rgba(0,0,0,0.9)_0px_0px_0px_1px]',
+        figma: 'bg-linear-to-b from-[#433F3B] to-[#2A2625] inset-shadow-xs text-white shadow-[rgba(255,255,255,0.2)_0px_0px_0px_1px_inset,rgba(0,0,0,0.9)_0px_0px_0px_1px]',
         default: "bg-primary text-primary-foreground hover:bg-primary/90",
         destructive:
           "bg-destructive text-white hover:bg-destructive/90 focus-visible:ring-destructive/20 dark:focus-visible:ring-destructive/40 dark:bg-destructive/60",
